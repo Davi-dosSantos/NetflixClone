@@ -1,0 +1,58 @@
+:root{
+    --vermelho: #E50914 ;
+    --preto: #141414;
+}
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+ background: var( --preto);
+ font-family: 'Times New Roman', Times, serif;
+}
+
+header .container{
+    margin-top: 1%;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+header .leftmenu{
+    margin-left: 3%;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+header .rightmenu{
+    margin-left: 3%;
+    margin-right: 3%;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    text-decoration: none;
+    color: #fff;
+
+}
+header .logo{
+    margin-left: 5px;
+    margin-right: 10px;
+    color: var( --vermelho);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #fff;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color: #AAA;
+}
+
+
