@@ -55,4 +55,12 @@ header nav a:hover{
     color: #AAA;
 }
 
+.filme-principal{
+    font-size: 16px;
+    background: url('/img/');
+    background-color: aqua;
+    height: 400px;
+    background-size: 100%;
+}
+
 
